@@ -1,0 +1,165 @@
+.appointment {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.user-details-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .user-details-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+.horizantal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.heading {
+  font-size: 15px;
+  color: #171f46;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+.sub-heading {
+  color: #b5b7c4;
+  font-size: 10px;
+  margin-bottom: 5px;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .sub-heading {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+.user-details {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .user-details {
+    width: 50%;
+  }
+}
+.user-input {
+  padding: 6px;
+  padding-left: 10px;
+  font-size: 10px;
+  width: 70%;
+  max-width: 300px;
+  color: #171f46;
+  outline: none;
+  border: 2px solid #b5b7c4;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+  .user-input {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+.add-btn {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .add-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+}
+.img-container {
+  display: none;
+}
+.contacts-img {
+  width: 100%;
+  height: 250px;
+}
+@media screen and (min-width: 768px) {
+  .img-container {
+    display: flex;
+    width: 50%;
+  }
+}
+.line {
+  margin-top: 15px;
+  height: 2px;
+  border: none;
+  background-color: #b5b7c4;
+}
+.appointment-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.appointment-text {
+  font-size: 15px;
+  color: #171f46;
+  font-weight: 500;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .appointment-text {
+    font-size: 30px;
+  }
+}
+.starred-button {
+  background-color: transparent;
+  color: #9897f0;
+  border-radius: 8px;
+  border: 2px solid #9897f0;
+  padding: 5px;
+  height: 20px;
+  width: 40px;
+  font-size: 8px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .starred-button {
+    padding: 10px;
+    height: 35px;
+    width: 70px;
+    border-radius: 13px;
+    font-size: 15px;
+  }
+}
+.appointment-list {
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.active{
+  background-color: #9796f0;
+  color: #ffffff;
+}
